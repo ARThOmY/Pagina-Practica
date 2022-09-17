@@ -1,0 +1,144 @@
+
+/*COLORES
+
+#181859
+#8080E0
+#3B3BD9
+#3E3E5C
+#2D2DA6
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #c2c2f1;
+
+}
+
+
+
+/*Ordenes Generales*/
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.btn_news{
+    height: 27px;
+    background-color: #c2c2f1;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: #3E3E5C;
+}
+
+
+/*Header*/
+
+header{
+    background-color: #3E3E5C;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header li{
+    list-style: none;
+    float:left;
+    padding: 0 20px;
+}
+
+header #logo{
+
+    float: left;
+}
+
+header nav {
+    margin-top: 10px;
+    float: right;
+}
+
+header a:hover{
+    color: #8080E0;
+}
+
+header .marcado{
+    color: #8080E0;
+}
+
+
+/* VIDRIERA */
+
+#vidriera{
+    min-height: 400px;
+    background-image: url(img2/picos-de-montana-en-argentina_3840x2160_xtrafondos.com.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+#vidriera h1{
+    font-size: 60px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    color: #ffffff
+}
+
+#vidriera p{
+    font-size: 25px;
+    color: #ffffff
+}
+
+#vidriera span{
+    color: lightblue;
+}
+
+
+/* Newsletter */
+
+#newsletter{
+    background-color: #3E3E5C;
+    color: #ffffff;
+    padding: 15px
+}
+
+#newsletter h3{
+    float: left;
+    margin-top: 2px;
+}
+
+#newsletter form{
+    float: right;
+}
+
+#newsletter input{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 10px;
+}
+
+#newsletter button:hover{
+    color: #3b3bd9;
+}
+
+
