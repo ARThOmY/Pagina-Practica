@@ -141,4 +141,73 @@ header .marcado{
     color: #3b3bd9;
 }
 
+/* Destinos */
+
+#destinos h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    color: #ffffff;
+    background-color: #3E3E5C;
+    border-radius: 8px;
+    height: 50px;
+    padding-top: 18px;
+}
+
+#destinos .imagenes div{
+    display: inline-block;
+}
+
+#destinos img{
+    display: inline-block;
+    width: 400px;
+    height: 270px;
+    margin-left: 80px;
+    
+}
+
+#destinos .imagenes div h3{
+
+    color: #ffffff;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: #3E3E5C;
+    border-radius: 8px;
+    height: 30px;
+    padding-top: 8px;
+  
+    
+}
+
+/* Footer */
+
+footer{
+    height: 100px;
+    background-color: #3E3E5C;
+    color: #ffffff;
+    margin-top: 80px;
+}
+
+footer div{
+    padding-left: 500px;
+}
+
+footer div p {
+    display: inline-block;
+    margin: 40px 0 0 40px
+}
+
+footer div a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 0 0 40px
+    
+}
+
+
+
+
+
+
 
