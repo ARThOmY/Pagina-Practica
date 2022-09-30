@@ -19,7 +19,6 @@ body{
     padding: 0;
     margin: 0;
     background-color: #c2c2f1;
-
 }
 
 
@@ -39,6 +38,12 @@ body{
     border-radius: 10px;
     padding: 0 20px;
     color: #3E3E5C;
+}
+
+hr{
+
+    height: 2px;
+    color: #3b3bd9;
 }
 
 
@@ -141,73 +146,132 @@ header .marcado{
     color: #3b3bd9;
 }
 
-/* Destinos */
+/* Boxes */
 
-#destinos h2 {
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    color: #ffffff;
-    background-color: #3E3E5C;
-    border-radius: 8px;
-    height: 50px;
-    padding-top: 18px;
-}
-
-#destinos .imagenes div{
-    display: inline-block;
-}
-
-#destinos img{
-    display: inline-block;
-    width: 400px;
-    height: 270px;
-    margin-left: 80px;
-    
-}
-
-#destinos .imagenes div h3{
-
-    color: #ffffff;
-    text-align: center;
-    margin-left: 80px;
+#boxes{
     margin-top: 20px;
-    background-color: #3E3E5C;
-    border-radius: 8px;
-    height: 30px;
-    padding-top: 8px;
-  
-    
+    color: #3E3E5C;
+    margin-bottom: 20px;
+}
+
+#boxes .box{
+    margin-top: 20px;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes img{
+    width: 230px;
+    height: 120px;
+}
+
+#boxes p{
+    font-size: 13px;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+#boxes h2{
+    font-size: 25px;
+    text-align: left;
+    color: #3E3E5C;
+    margin-bottom: 10px;
 }
 
 /* Footer */
 
 footer{
-    height: 100px;
+    height: 50px;
     background-color: #3E3E5C;
+    text-align: center;
     color: #ffffff;
-    margin-top: 80px;
+    font-size: 16px;
 }
 
-footer div{
-    padding-left: 500px;
+footer p{
+    padding-top: 15px;
 }
 
-footer div p {
-    display: inline-block;
-    margin: 40px 0 0 40px
-}
 
-footer div a{
-    text-decoration: none;
-    display: inline-block;
-    margin: 40px 0 0 40px
+/* Media query */
+
+@media only screen and (max-width: 768px) {
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    header #logo, header nav, header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    header li{
+        padding: 10px;
+    }
+
+    header a{
+        font-size: 18px;
+    }
+
+    #vidriera h1{
+        margin-top: 40px;
+        font-size: 50px;
+    }
     
+    #vidriera p{
+        font-size: 20px;
+    }
+
+    #newsletter h3, #newsletter form{
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #newsletter input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn_news{
+        width: 100%;
+        display: block;
+    }
+
+    #boxes .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #boxes h2{
+        font-size: 35px;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    #boxes h3{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #boxes p{
+        text-align: center;
+    }
+
+    #boxes hr{
+        background-color: #8080E0;
+    }
 }
-
-
-
-
-
-
 
