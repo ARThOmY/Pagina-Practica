@@ -85,7 +85,7 @@ header a:hover{
 }
 
 header .marcado{
-    color: #8080E0;
+    color: #c2c2f1;
 }
 
 
@@ -180,6 +180,11 @@ header .marcado{
     margin-bottom: 10px;
 }
 
+#boxes hr{
+    background-color: #3E3E5C;
+    border: 0;
+}
+
 /* Footer */
 
 footer{
@@ -195,7 +200,80 @@ footer p{
 }
 
 
-/* Media query */
+/* Somos */
+
+#vidriera_somos{
+    background-image: url(img2/Verano-2019-Mar-del-Plata-Atardecer-y-amanecer-con-drone-2.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+
+
+#vidriera_somos h1{
+    font-size: 60px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#vidriera_somos span{
+    color: #8080E0;
+}
+
+.texto_somos{
+    float: left;
+    max-width: 60%;
+    margin-bottom: 50px;
+}
+
+.texto_somos h3{
+    margin-top: 30px;
+    color: #3E3E5C;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.texto_somos p{
+    margin-top: 30px;
+    color: #000000;
+    max-width: 80%;
+}
+
+.cuadrito{
+    float: right;
+    max-width: 30%;
+    background-color: #8080E0;
+    margin-top: 50px;
+    padding: 15px;
+    border: #3E3E5C solid;
+
+    
+}
+
+.cuadrito h3{
+    margin-top: 10px;
+    color: #3E3E5C;
+}
+
+.cuadrito p{
+    margin-top: 20px;
+    color: #000000;
+    max-width: 80%;
+    
+}
+
+.weatherwidget-io{
+    margin-top: 60px;
+    border: #3E3E5C solid;
+}
+
+
+/* Media query Inicio*/
 
 @media only screen and (max-width: 768px) {
 
@@ -212,14 +290,17 @@ footer p{
     header h1{
         font-size: 40px;
         margin-bottom: 5px;
+        border-bottom: solid #34344f;
     }
 
     header li{
         padding: 10px;
+    
     }
 
     header a{
         font-size: 18px;
+        
     }
 
     #vidriera h1{
@@ -268,10 +349,42 @@ footer p{
 
     #boxes p{
         text-align: center;
+       
     }
 
     #boxes hr{
         background-color: #8080E0;
+        border: 0;
     }
+
+    
 }
+
+@media only screen and (max-width: 768px){
+
+    .texto_somos{
+        float: none;
+        max-width: 100%;
+        text-align: left;
+
+    }
+    
+    .texto_somos p{
+        margin-top: 10px;
+        
+    }
+
+    .cuadrito{
+        float: none;
+        max-width: 100%;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .cuadrito p{
+        margin-top: 10px;
+    }
+
+}
+
 
