@@ -19,6 +19,9 @@ body{
     padding: 0;
     margin: 0;
     background-color: #c2c2f1;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
 }
 
 
@@ -190,13 +193,22 @@ header .marcado{
 footer{
     height: 50px;
     background-color: #3E3E5C;
-    text-align: center;
     color: #ffffff;
     font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-footer p{
-    padding-top: 15px;
+.dise{
+    float: left;
+    margin-top: 18px;
+    margin-left: 35px;
+}
+.nombre{
+    float: right;
+    margin-top: 18px;
+    margin-right: 35px;
 }
 
 
@@ -218,7 +230,7 @@ footer p{
     text-align: center;
     margin-bottom: 15px;
     color: #ffffff;
-    font-weight: 500;
+    
 }
 
 #vidriera_somos span{
@@ -271,6 +283,73 @@ footer p{
     margin-top: 60px;
     border: #3E3E5C solid;
 }
+
+.dise{
+    float: left;
+    margin-top: 18px;
+    margin-left: 35px;
+}
+.nombre{
+    float: right;
+    margin-top: 18px;
+    margin-right: 35px;
+}
+
+
+/* Contacto */
+
+#vidriera_contacto{
+    background-image: url(img2/Secrets-Buenos-Aires-Tourist-Guidepuerto-madero-in-buenos-aires-after-sunset-PYV8F2V.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#vidriera_contacto h1{
+    font-size: 60px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+    
+}
+
+#vidriera_contacto span{
+    color: #8080E0;
+}
+
+#contacto_form{
+    max-width: 400px;
+    background-color: #3E3E5C;
+    height: 220px;
+    float:right;
+    margin-top: 25px;
+    margin-right: 25px;
+    text-align: center;
+    
+}
+
+#contacto_form h2{
+    color: #c2c2f1;
+    margin-top: 10px;
+}
+#contacto_form input{
+    margin: 15px;
+}
+
+#contacto_form .msj{
+    height: 100px;
+}
+
+.map{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+
+
 
 
 /* Media query Inicio*/
@@ -356,9 +435,9 @@ footer p{
         background-color: #8080E0;
         border: 0;
     }
-
-    
 }
+
+/* Media Query Somos */
 
 @media only screen and (max-width: 768px){
 
