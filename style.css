@@ -185,7 +185,7 @@ header .marcado{
 /* Footer */
 
 footer{
-    height: 50px;
+    height: 100px;
     background-color: #3E3E5C;
     color: #ffffff;
     font-size: 16px;
@@ -203,6 +203,21 @@ footer{
     float: right;
     margin-top: 18px;
     margin-right: 35px;
+}
+
+footer div{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer div a{
+    margin: 25px;
+    text-decoration: none;
+    color: #c2c2f1;
+}
+
+footer div a:hover{
+    color: #34344f;
 }
 
 
@@ -350,7 +365,6 @@ footer{
 .map{
     margin-top: 25px;
     margin-left: 25px;
-    max-width: 200px; 
 }
 
 /* Media query Inicio*/
