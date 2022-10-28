@@ -185,7 +185,7 @@ header .marcado{
 /* Footer */
 
 footer{
-    height: 100px;
+    height: 250px;
     background-color: #3E3E5C;
     color: #ffffff;
     font-size: 16px;
@@ -205,18 +205,23 @@ footer{
     margin-right: 35px;
 }
 
-footer div{
-    margin-top: 50px;
-    text-align: center;
+footer{
+    height: 50px ;
 }
 
-footer div a{
+footer p{
+    text-align: center;
+    
+}
+
+footer a{
     margin: 25px;
     text-decoration: none;
     color: #ffffff;
+    
 }
 
-footer div a:hover{
+footer a:hover{
     color: #6969ad;
 }
 
@@ -288,16 +293,7 @@ footer div a:hover{
     border: #3E3E5C solid;
 }
 
-.dise{
-    float: left;
-    margin-top: 18px;
-    margin-left: 35px;
-}
-.nombre{
-    float: right;
-    margin-top: 18px;
-    margin-right: 35px;
-}
+footer 
 
 
 /* Contacto */
@@ -404,6 +400,7 @@ footer div a:hover{
     
     #vidriera p{
         font-size: 20px;
+        margin-bottom: 40px;
     }
 
     #newsletter h3, #newsletter form{
@@ -427,6 +424,8 @@ footer div a:hover{
         float: none;
         text-align: center;
         width: 100%;
+        margin-bottom: 25px;
+        
     }
 
     #boxes h2{
@@ -450,6 +449,32 @@ footer div a:hover{
         background-color: #8080E0;
         border: 0;
     }
+
+    #luna{
+        margin-bottom: 160px;
+        float: none;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    footer{
+        width: 100%;
+        min-height: 250px;
+        
+    }
+
+    footer p{
+        float: none;
+        text-align: center;
+        margin-top: 25px;
+        
+    }
+
+    footer a{
+        text-align: center;
+        
+    }
 }
 
 /* Media Query Somos */
@@ -471,7 +496,7 @@ footer div a:hover{
     .cuadrito{
         float: none;
         max-width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 200px;
         text-align: left;
     }
 
@@ -479,6 +504,13 @@ footer div a:hover{
         margin-top: 10px;
     }
 
+    iframe{
+        margin-bottom: 200px;
+        margin-top: 25px;
+    }
+
 }
+
+
 
 

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:darkcyan ;
+}
+
+.madre{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(189, 227, 214);
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+    flex-flow: row wrap;
+    
+}
+
+.hija{
+    display: flex;
+    border-radius: 15%;
+    border: solid 2px rgb(209, 209, 188);
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 6;
+    
+    
+}
+
+footer{
+    display: flex;
+    height: 75px;
+    background-color: rgb(189, 227, 214);
+    margin-top: 25px;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    
+    
+}
+
+footer img{
+    margin-top: 17.5px;
+    max-width: 40px;
+    max-height: 40px;
+}
