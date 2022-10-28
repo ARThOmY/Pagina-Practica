@@ -1,0 +1,257 @@
+/*COLORES
+#181859
+#8080E0
+#3B3BD9
+#3E3E5C
+#2D2DA6
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #c2c2f1;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+/*Ordenes Generales*/
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+hr{
+
+    height: 2px;
+    color: #3b3bd9;
+}
+
+/*Header*/
+
+header{
+    background-color: #3E3E5C;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;  
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header li{
+    list-style: none;
+    float:left;
+    padding: 0 20px;
+}
+
+header #logo{
+
+    float: left;
+}
+
+header nav {
+    margin-top: 10px;
+    float: right;
+}
+
+header a:hover{
+    color: #8080E0;
+}
+
+header .marcado{
+    color: #c2c2f1;
+}
+
+#vidriera_contacto{
+    background-image: url(../img2/Secrets-Buenos-Aires-Tourist-Guidepuerto-madero-in-buenos-aires-after-sunset-PYV8F2V.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#vidriera_contacto h1{
+    font-size: 60px;
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;  
+}
+
+#vidriera_contacto span{
+    color: #8080E0;
+}
+
+#contacto_form{
+    max-width: 600px;
+    background-color: #3E3E5C;
+    height: 300px;
+    float:right;
+    margin-top: 25px;
+    margin-right: 25px;
+    text-align: center;  
+}
+
+#contacto_form h2{
+    color: #c2c2f1;
+    margin-top: 10px;
+}
+
+#contacto_form input{
+    margin: 25px 15px 25px 15px;
+    display: inline-block;
+    border-radius: 15px;
+    height: 25px;
+}
+
+#contacto_form .msj{
+    margin: 0;
+    height: 100px;
+    width: 566px;    
+}
+
+.btn_enviar{
+    background-color: #c2c2f1;
+    height: 30px;
+    width: 100px;
+    float:none;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+
+
+footer{
+    height: 250px;
+    background-color: #3E3E5C;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    height: 120px ;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 15px; 
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;  
+}
+
+footer a:hover{
+    color: #6969ad;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        padding-bottom: 275px;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    header #logo, header nav, header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 40px;
+        margin-bottom: 5px;
+        border-bottom: solid #34344f;
+    }
+
+    header li{
+        padding: 10px; 
+    }
+
+    header a{
+        font-size: 18px;
+    }
+
+    #contacto_form{
+        margin: 25px 5% 0 0;
+        width: 90%;
+        height: 450px;
+
+    }
+
+    #contacto_form input{
+        margin-bottom: 10px;
+        width: 70%;
+        float: none;
+    }
+
+    #contacto_form h2{
+        padding-top: 10px;
+    }
+
+    #contacto_form #msj{
+        width: 70%;
+        height: 100px;
+    }
+
+    iframe{
+        margin-top: 25px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .map{
+        width: 90%;
+        margin: 25px 0 0 5%;
+    }
+
+    footer{
+        width: 100%;
+        min-height: 250px; 
+    }
+
+    footer p{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;  
+    }
+
+    footer div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        gap: 0;
+    }
+
+   
+}

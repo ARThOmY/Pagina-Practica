@@ -9,7 +9,7 @@
     <meta property="og:image" content="img2/bsas.jpg">
 
     <title>Somos - Argentina World Tourism</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/contacto.css">
 
 </head>
 <body>
@@ -37,14 +37,16 @@
     </section>
 
     <section id="contacto_form">
-        <h2>Contactate</h2>
-        <form action="">
-            <input type="text" placeholder=" Nombre">
-            <input type="text" placeholder=" Apellido">
-            <input type="mail" placeholder=" Ingresa tu Mail">
-            <input class="msj" type="text" placeholder=" Mensaje">
-            <button class="btn_enviar"> Enviar </button>
-        </form>
+        <div class="contenedor">
+            <h2>Contactate</h2>
+            <form action="">
+                <input type="text" placeholder=" Nombre">
+                <input type="text" placeholder=" Apellido">
+                <input type="mail" placeholder=" Ingresa tu Mail">
+                <input id="msj" type="text" placeholder=" Mensaje">
+                <button class="btn_enviar"> Enviar </button>
+            </form>
+        </div>
     </section>
 
     <section class="map">
@@ -55,9 +57,11 @@
         <p>Diseño y Desarrollo Web copyright &copy;2022</p>
         <p>Ashby Thomas < ></p>
 
-        <p><a href="https://www.linkedin.com/in/thomasashby/"> Linkedin</a></p>
-        <p><a href="https://twitter.com/ThomyAshby"> Twitter</a></p>
-        <p><a href="https://www.instagram.com/thomyashby/"> Instagram</a></p>
+        <div>
+            <p><a href="https://www.linkedin.com/in/thomasashby/"> Linkedin</a></p>
+            <p><a href="https://twitter.com/ThomyAshby"> Twitter</a></p>
+            <p><a href="https://www.instagram.com/thomyashby/"> Instagram</a></p>
+        </div>
     </footer>
     
 </body>

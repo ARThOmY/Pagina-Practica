@@ -1,4 +1,3 @@
-
 /*COLORES
 
 #181859
@@ -7,6 +6,7 @@
 #3E3E5C
 #2D2DA6
 */
+
 
 *{
     margin: 0;
@@ -91,7 +91,7 @@ header .marcado{
 
 #vidriera{
     min-height: 400px;
-    background-image: url(img2/picos-de-montana-en-argentina_3840x2160_xtrafondos.com.jpg);
+    background-image: url(../img2/picos-de-montana-en-argentina_3840x2160_xtrafondos.com.jpg);
     background-size: cover;
     background-position: center;
     text-align: center; 
@@ -194,176 +194,32 @@ footer{
     width: 100%;
 }
 
-.dise{
-    float: left;
-    margin-top: 18px;
-    margin-left: 35px;
-}
-.nombre{
-    float: right;
-    margin-top: 18px;
-    margin-right: 35px;
-}
-
 footer{
-    height: 50px ;
+    height: 120px ;
 }
 
 footer p{
     text-align: center;
+    margin-top: 15px;
     
 }
 
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
 footer a{
-    margin: 25px;
     text-decoration: none;
-    color: #ffffff;
-    
+    color: #ffffff;  
 }
 
 footer a:hover{
     color: #6969ad;
 }
 
-
-/* Somos */
-
-#vidriera_somos{
-    background-image: url(img2/Verano-2019-Mar-del-Plata-Atardecer-y-amanecer-con-drone-2.jpg);
-    min-height: 400px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-
-}
-
-#vidriera_somos h1{
-    font-size: 60px;
-    margin-top: 90px;
-    text-align: center;
-    margin-bottom: 15px;
-    color: #ffffff;  
-}
-
-#vidriera_somos span{
-    color: #8080E0;
-}
-
-.texto_somos{
-    float: left;
-    max-width: 60%;
-    margin-bottom: 50px;
-}
-
-.texto_somos h3{
-    margin-top: 30px;
-    color: #3E3E5C;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.texto_somos p{
-    margin-top: 30px;
-    color: #000000;
-    max-width: 80%;
-}
-
-.cuadrito{
-    float: right;
-    max-width: 30%;
-    background-color: #8080E0;
-    margin-top: 50px;
-    padding: 15px;
-    border: #3E3E5C solid;
-}
-
-.cuadrito h3{
-    margin-top: 10px;
-    color: #3E3E5C;
-}
-
-.cuadrito p{
-    margin-top: 20px;
-    color: #000000;
-    max-width: 80%;
-}
-
-.weatherwidget-io{
-    margin-top: 60px;
-    border: #3E3E5C solid;
-}
-
-footer 
-
-
-/* Contacto */
-
-#vidriera_contacto{
-    background-image: url(img2/Secrets-Buenos-Aires-Tourist-Guidepuerto-madero-in-buenos-aires-after-sunset-PYV8F2V.jpg);
-    min-height: 400px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
-#vidriera_contacto h1{
-    font-size: 60px;
-    margin-top: 90px;
-    text-align: center;
-    margin-bottom: 15px;
-    color: #ffffff;
-    
-}
-
-#vidriera_contacto span{
-    color: #8080E0;
-}
-
-#contacto_form{
-    max-width: 600px;
-    background-color: #3E3E5C;
-    height: 300px;
-    float:right;
-    margin-top: 25px;
-    margin-right: 25px;
-    text-align: center;
-    
-}
-
-#contacto_form h2{
-    color: #c2c2f1;
-    margin-top: 10px;
-}
-#contacto_form input{
-    margin: 25px 15px 25px 15px;
-    display: inline-block;
-    border-radius: 15px;
-    height: 25px;
-
-}
-
-#contacto_form .msj{
-    margin: 0;
-    height: 100px;
-    width: 566px;
-    
-}
-
-.btn_enviar{
-    background-color: #c2c2f1;
-    height: 30px;
-    width: 100px;
-    float:none;
-    border-radius: 15px;
-    margin: 25px;
-}
-
-.map{
-    margin-top: 25px;
-    margin-left: 25px;
-}
-
-/* Media query Inicio*/
 
 @media only screen and (max-width: 768px) {
 
@@ -450,14 +306,6 @@ footer
         border: 0;
     }
 
-    #luna{
-        margin-bottom: 160px;
-        float: none;
-        text-align: center;
-        width: 100%;
-        
-    }
-
     footer{
         width: 100%;
         min-height: 250px;
@@ -465,52 +313,21 @@ footer
     }
 
     footer p{
-        float: none;
-        text-align: center;
         margin-top: 25px;
-        
-    }
-
-    footer a{
-        text-align: center;
-        
-    }
-}
-
-/* Media Query Somos */
-
-@media only screen and (max-width: 768px){
-
-    .texto_somos{
-        float: none;
-        max-width: 100%;
-        text-align: left;
-
-    }
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     
-    .texto_somos p{
-        margin-top: 10px;
         
     }
 
-    .cuadrito{
-        float: none;
-        max-width: 100%;
-        margin-bottom: 200px;
-        text-align: left;
+    footer div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+        gap: 0;
     }
 
-    .cuadrito p{
-        margin-top: 10px;
-    }
-
-    iframe{
-        margin-bottom: 200px;
-        margin-top: 25px;
-    }
-
+   
 }
-
-
-
-
