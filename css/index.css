@@ -20,7 +20,7 @@ body{
     background-color: #c2c2f1;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 100px;
+    padding-bottom: 125px;
 }
 
 /*Ordenes Generales*/
@@ -222,6 +222,10 @@ footer a:hover{
 
 
 @media only screen and (max-width: 768px) {
+
+    body{
+        padding-bottom: 240px;
+    }
 
     header{
         padding-bottom: 20px;
