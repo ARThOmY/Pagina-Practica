@@ -22,7 +22,6 @@ body{
 }
 
 #slideshow{
-    width: 80%;
     margin: auto;
     overflow: hidden;
 }
@@ -73,12 +72,11 @@ header .marcado{
 }
 
 .mySlides {
-    margin-top: 30px;
     display: none}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -155,6 +153,33 @@ header .marcado{
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+/* Campanias */
+#campania h2{
+  text-align: center;
+  margin-top: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  background-color: #3E3E5C;
+}
+.box{
+  background-color: #3E3E5C;
+  margin-top: 25px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.box h3{
+  text-align: center;
+  padding: 20px 0;
+}
+
+.box img{
+  width: 200px;
+  height: 120px;
+  margin: 0 0 20px 20px;
 }
 
 /* Footer */
