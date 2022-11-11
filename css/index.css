@@ -20,7 +20,7 @@ body{
     background-color: #c2c2f1;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 125px;
+    padding-bottom: 280px;
 }
 
 /*Ordenes Generales*/
@@ -185,46 +185,63 @@ header .marcado{
 /* Footer */
 
 footer{
-    height: 250px;
+    height: 280px;
     background-color: #3E3E5C;
     color: #ffffff;
-    font-size: 16px;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-footer{
-    height: 120px ;
+#info{
+    margin-top: 35px;
+    width: 48%;
+    float: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 50px;
 }
 
-footer p{
-    text-align: center;
-    margin-top: 15px;
+#info p{
+    margin-bottom: 15px;
+}
+
+#info h3{
+    margin-top: 45px ;
+    font-size: 24px;
+    font-weight: 300;
     
 }
 
+#info span{
+    font-weight: 500;
+}
 
-footer div {
+#contacto{
+    width: 45%;
+    float: right;
+    margin-top: 65px;
+    border-left: solid #28283c 2px;
+    text-align: center;
+    height: 170px;
+    
+}
+
+#contacto h2{
+    margin-bottom: 45px;
+}
+
+#contacto div{
     display: flex;
+    gap: 30px;
     justify-content: center;
-    gap: 25px;
 }
-
-footer a{
-    text-decoration: none;
-    color: #ffffff;  
-}
-
-footer a:hover{
-    color: #6969ad;
-}
-
 
 @media only screen and (max-width: 768px) {
 
     body{
-        padding-bottom: 240px;
+        padding-bottom: 450px;
     }
 
     header{
@@ -298,6 +315,8 @@ footer a:hover{
         font-size: 25px;
         margin-top: 15px;
         text-align: center;
+        
+
     }
 
     #boxes p{
@@ -312,25 +331,46 @@ footer a:hover{
 
     footer{
         width: 100%;
-        min-height: 250px;
+        min-height: 460px;
         
     }
 
-    footer p{
+    #info{
+        margin:0;
         margin-top: 25px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    
-        
+        width: 100%;
+        float: none;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 0;
     }
-
-    footer div{
-        display: flex;
+    
+    #info h3{
+        margin-top: 0 ;
+        font-size: 24px;
+        font-weight: 300;  
+        border-bottom: #28283c 2px solid;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    
+    #contacto{
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        border-left: none;
+        text-align: center;
+        padding-top: 25px;
+    }
+    
+    #contacto h2{
+        margin-bottom: 45px;
+    }
+    
+    #contacto div{
         justify-content: center;
-        align-items: center;
-        flex-flow: column wrap;
-        gap: 0;
     }
 
    
