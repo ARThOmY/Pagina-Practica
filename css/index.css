@@ -91,7 +91,7 @@ header .marcado{
 
 #vidriera{
     min-height: 400px;
-    background-image: url(../img2/picos-de-montana-en-argentina_3840x2160_xtrafondos.com.jpg);
+    background-image: url(../img/picos-de-montana-en-argentina_3840x2160_xtrafondos.com.jpg);
     background-size: cover;
     background-position: center;
     text-align: center; 
@@ -165,9 +165,10 @@ header .marcado{
 }
 
 #boxes p{
-    font-size: 13px;
+    font-size: 14px;
     padding: 0 20px;
     margin-top: 10px;
+    font-weight: 400;
 }
 
 #boxes h2{
