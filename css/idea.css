@@ -200,10 +200,12 @@ header .marcado{
 }
 
 .box .ph_promo{
+  display: flex;
   width: 300px;
   height: 120px;
   margin: 0 0 20px 50px;
   border-radius: .2em;
+  justify-content: center;
 }
 
 .box_logo{
@@ -358,7 +360,16 @@ footer{
     height: 250px;
 }
 
-  
+  .box{
+  width: 90%;
+}
+
+  .box .ph_promo{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+
+  }
 
   footer{
       width: 100%;
@@ -367,42 +378,46 @@ footer{
   }
 
   #info{
-      margin:0;
-      margin-top: 25px;
-      width: 100%;
-      float: none;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 300;
-      text-align: center;
-      margin-left: 0;
-  }
+    margin:0;
+    margin-top: 25px;
+    width: 100%;
+    float: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 0;
+}
+
+#info h3{
+    margin-top: 0 ;
+    font-size: 24px;
+    font-weight: 300;  
+    border-bottom: #28283c 2px solid;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#contacto{
+    width: 100%;
+    float: none;
+    margin-top: 0;
+    border-left: none;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#contacto h2{
+    margin-bottom: 45px;
+}
+
+#contacto div{
+    justify-content: center;
+}
+
   
-  #info h3{
-      margin-top: 0 ;
-      font-size: 24px;
-      font-weight: 300;  
-      border-bottom: #28283c 2px solid;
-      padding-bottom: 25px;
-      text-align: center;
-  }
-  
-  #contacto{
-      width: 100%;
-      float: none;
-      margin-top: 0;
-      border-left: none;
-      text-align: center;
-      padding-top: 25px;
-  }
-  
-  #contacto h2{
-      margin-bottom: 45px;
-  }
-  
-  #contacto div{
-      justify-content: center;
-  }
+
+ 
 
 }
 

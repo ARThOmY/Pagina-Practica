@@ -86,19 +86,22 @@ header .marcado{
     background-size: cover;
     background-position: center;
     text-align: center;
+    display: flex;
 
 }
 
 #vidriera_somos h1{
     font-size: 60px;
-    margin-top: 90px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 15px;
     color: #ffffff;  
 }
 
 #vidriera_somos span{
-    color: #8080E0;
+    color: #eeeeee;
+    
 }
 
 .texto_somos{
@@ -225,6 +228,7 @@ footer{
     header a{
         font-size: 18px; 
     }
+
     .texto_somos{
         float: none;
         max-width: 100%;
